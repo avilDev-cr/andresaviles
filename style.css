@@ -93,6 +93,7 @@ header {
   background-color: rgba(38, 68, 144, 0.895);
   padding: 20px;
   text-align: center;
+
 }
 
 header h1 {
@@ -107,6 +108,29 @@ h1 {
   margin-bottom: 20px; /* Añade espacio debajo del h1 */
 }
 
+.buttons {
+  min-width: 700px;
+  display: inline;
+  justify-content: space-around;
+}
+.buttons a {
+  text-decoration: none;
+  font-size: 30px;
+  width: 90px;
+  height: 60px;
+  line-height: 60px;
+  margin: 0.22rem;
+  text-align: center;
+  background: #314652;
+  color: #f1f1f1;
+  border-radius: 10%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+  transition: all .4s ease-in-out;
+}
+
+.buttons a:hover {
+  transform: scale(1.2);
+}
 
 nav ul {
   display: flex;
@@ -152,6 +176,8 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow: hidden;
+  position: relative;
 }
 
 .footer-content h3 {
