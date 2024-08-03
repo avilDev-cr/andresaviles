@@ -96,6 +96,7 @@ section {
   width: 100%;
   height: auto;
   max-width: 100%;
+  border-radius: 0.22rem;
 }
 @media (max-width: 600px) {
   img {
@@ -107,16 +108,18 @@ section {
 
 
 .card-title {
-  font-size: 1.5em;
+  font-size: 1.8em;
   margin: 0 0 8px;
+  margin: 1rem 0rem;
 }
 
 .card-text {
-  font-size: 1em;
+  font-size: 1.2em;
+  line-height: 1.6rem;
   margin: 0 0 16px;
 }
 
-.card-button {
+/* .card-button {
   display: inline-block;
   padding: 10px 15px;
   background-color: #007bff;
@@ -124,7 +127,7 @@ section {
   text-decoration: none;
   border-radius: 4px;
   text-align: center;
-}
+} */
 
 .card-button:hover {
   background-color: #0056b3;
@@ -135,6 +138,17 @@ section {
     flex-direction: row;
     justify-content: space-between;
   }
+}
+
+.btn-primary{
+  font-size:1.6rem;
+  color: white;
+  background-color: #007bff;
+  text-decoration: none;
+  padding: 10px 30px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
 }
 
 
