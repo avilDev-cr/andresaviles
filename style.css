@@ -27,7 +27,7 @@ section {
   justify-content: center; /* Centra la card horizontalmente */
   align-items: center; /* Centra la card verticalmente */
   flex-direction: column; /* Asegura que las cards se apilen verticalmente si hay más de una */
-  padding: 10px; /* Opcional: Añade algo de espacio alrededor del contenido */
+  padding: 0.5rem; /* Opcional: Añade algo de espacio alrededor del contenido */
 }
 
 .card {
