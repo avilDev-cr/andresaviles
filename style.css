@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: Arial, sans-serif;
   padding: 0;
@@ -18,19 +22,27 @@ body, html {
   height: 150px;
   object-fit: cover;
 }
+section {
+  display: flex;
+  justify-content: center; /* Centra la card horizontalmente */
+  align-items: center; /* Centra la card verticalmente */
+  flex-direction: column; /* Asegura que las cards se apilen verticalmente si hay más de una */
+  padding: 20px; /* Opcional: Añade algo de espacio alrededor del contenido */
+}
 
 .card {
-  width: 90%; /* La card ocupa el 90% del ancho del dispositivo */
-  max-width: 500px; /* Limita el ancho máximo en dispositivos más grandes */
+  width: 90%; /* La card ocupa el 90% del ancho del contenedor */
+  max-width: 600px; /* Limita el ancho máximo en dispositivos más grandes */
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   padding: 4rem 2rem;
-
   margin-bottom: 3rem;
   box-sizing: border-box;
 }
+
+
 
 .card-img {
   width: 100%;
