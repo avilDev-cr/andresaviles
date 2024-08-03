@@ -35,6 +35,30 @@ header {
   color: white;
 }
 
+.buttons {
+  min-width: 700px;
+  display: inline;
+  justify-content: space-around;
+}
+.buttons a {
+  text-decoration: none;
+  font-size: 30px;
+  width: 75px;
+  height: 60px;
+  line-height: 60px;
+  margin: 0.22rem;
+  text-align: center;
+  background: #314652;
+  color: #f1f1f1;
+  border-radius: 10%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+  transition: all .4s ease-in-out;
+}
+
+.buttons a:hover {
+  transform: scale(1.2);
+}
+
 header h1 {
   margin: 0;
 }
@@ -115,29 +139,7 @@ section {
 
 
 
-.buttons {
-  min-width: 700px;
-  display: inline;
-  justify-content: space-around;
-}
-.buttons a {
-  text-decoration: none;
-  font-size: 30px;
-  width: 80px;
-  height: 60px;
-  line-height: 60px;
-  margin: 0.22rem;
-  text-align: center;
-  background: #314652;
-  color: #f1f1f1;
-  border-radius: 10%;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
-  transition: all .4s ease-in-out;
-}
 
-.buttons a:hover {
-  transform: scale(1.2);
-}
 
 nav ul {
   display: flex;
