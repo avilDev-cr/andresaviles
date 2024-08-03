@@ -79,8 +79,8 @@ section {
 }
 
 .card {
-  width: 90%; /* La card ocupa el 90% del ancho del contenedor */
-  max-width: 600px; /* Limita el ancho máximo en dispositivos más grandes */
+  width: 100%; /* La card ocupa el 90% del ancho del contenedor */
+  max-width: 700px; /* Limita el ancho máximo en dispositivos más grandes */
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -138,9 +138,6 @@ section {
 }
 
 
-
-
-
 nav ul {
   display: flex;
   list-style: none;
@@ -158,9 +155,7 @@ main {
   padding: 20px;
 }
 
-section {
-  margin-bottom: 20px;
-}
+
 
 footer {
   background-color: lightgray;
