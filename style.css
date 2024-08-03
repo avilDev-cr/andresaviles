@@ -21,7 +21,7 @@ body, html {
 
 .card {
   width: 90%; /* La card ocupa el 90% del ancho del dispositivo */
-  max-width: 400px; /* Limita el ancho máximo en dispositivos más grandes */
+  max-width: 500px; /* Limita el ancho máximo en dispositivos más grandes */
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -29,6 +29,7 @@ body, html {
   padding: 4rem 2rem;
 
   margin-bottom: 3rem;
+  box-sizing: border-box;
 }
 
 .card-img {
