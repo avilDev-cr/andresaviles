@@ -168,56 +168,79 @@ nav a {
 main {
   padding: 20px;
 }
-
-
-
-footer {
-  background-color: lightgray;
-  padding: 20px;
-  text-align: center;
-}
+/* Estilos generales del footer */
 footer {
   background-color: #333;
   color: #fff;
-  padding: 20px 0;
-  text-align: center;
-  font-size: 14px;
-  width: 100%;
-  position: relative;
-  bottom: 0;
+  padding: 40px 0;
+  text-align: left;
+  font-family: Arial, sans-serif;
 }
 
 .footer-container {
-  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
   max-width: 1200px;
   margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  overflow: hidden;
-  position: relative;
+  padding: 0 20px;
 }
 
-.footer-content h3 {
-  margin: 0;
-  font-size: 1.5em;
+.footer-column {
+  flex: 1;
+  min-width: 250px;
+  margin: 20px 0;
+}
+
+.footer-column h3 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.footer-column p, .footer-column ul, .footer-column a {
+  font-size: 14px;
+  color: #bbb;
+  text-decoration: none;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
   margin-bottom: 10px;
 }
 
-.footer-content p {
-  margin: 5px 0;
-}
-
-.footer-social a {
+.footer-column ul li a:hover, 
+.footer-column a:hover {
   color: #fff;
-  text-decoration: none;
-  margin: 0 10px;
 }
 
-.footer-social a:hover {
-  text-decoration: underline;
-}
-
-.footer-copyright {
+.footer-bottom {
+  text-align: center;
   margin-top: 20px;
+  border-top: 1px solid #444;
+  padding-top: 20px;
+  font-size: 14px;
+}
+
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+  .footer-container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+  }
+
+  .footer-column {
+      margin-bottom: 30px;
+      width: 100%;
+      max-width: 500px;
+  }
+  .footer-column a{
+  font-size: 25px;
+  margin-right: 2rem;
+}
 }
