@@ -43,6 +43,7 @@ header {
 }
 .profesion{
   font-size: 0.8rem;
+  margin: 0.1rem 0 1.2rem 0;
 }
 
 .buttons {
@@ -126,7 +127,7 @@ nav a {
 }
 
 main {
-  padding: 20px;
+  padding:0 20px ;
 }
 /* Estilos generales del footer */
 footer {
