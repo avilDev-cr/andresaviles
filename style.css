@@ -7,7 +7,7 @@ body {
   padding: 0;
   margin: 0;
   max-width: 100%;
-  background: url(/img/bgandres.jpg.avif) no-repeat fixed center;
+  background: url(/img/bg3.jpg) no-repeat fixed center;
   background-size: cover;
 
 }
@@ -35,7 +35,7 @@ header {
 }
 
 .Title-name{
-  font-size: 35px;
+  font-size: 40px;
   color: white;
 }
 
@@ -112,17 +112,6 @@ section {
 }
 
 
-.card-title {
-  font-size: 1.8em;
-  margin: 0 0 8px;
-  margin: 1rem 0rem;
-}
-
-.card-text {
-  font-size: 1.2em;
-  line-height: 1.6rem;
-  margin: 0 0 16px;
-}
 
 /* .card-button {
   display: inline-block;
