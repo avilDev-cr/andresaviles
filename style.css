@@ -7,12 +7,16 @@ body {
   padding: 0;
   margin: 0;
   max-width: 100%;
+  background: url(/img/bgandres.jpg.avif) no-repeat fixed center;
+  background-size: cover;
+
 }
 
 body, html {
   overflow-x: hidden;
   padding: 0;
   margin: 0;
+  color: white;
 }
 
 
@@ -24,7 +28,7 @@ body, html {
 }
 
 header {
-  background-color: rgba(38, 68, 144, 0.895);
+
   padding: 20px;
   text-align: center;
 
@@ -61,13 +65,14 @@ header {
 
 header h1 {
   margin: 0;
+  
 }
 h1 {
   font-size: 1.5rem; /* Ajusta el tamaño de la fuente */
   font-family: 'Roboto', sans-serif; /* Cambia a una fuente más moderna */
   font-weight: 300; /* Hace que la fuente sea más delgada */
   line-height: 1.3; /* Mejora el espacio entre líneas */
-  color: #333; /* Ajusta el color del texto */
+  color: #fff8f8; /* Ajusta el color del texto */
   margin-bottom: 20px; /* Añade espacio debajo del h1 */
 }
 section {
@@ -170,11 +175,12 @@ main {
 }
 /* Estilos generales del footer */
 footer {
-  background-color: #333;
+ 
   color: #fff;
   padding: 40px 0;
   text-align: left;
   font-family: Arial, sans-serif;
+  
 }
 
 .footer-container {
@@ -243,4 +249,29 @@ footer {
   font-size: 25px;
   margin-right: 2rem;
 }
+}
+
+.section-projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0.5rem;
+}
+.project-list{
+  margin-bottom: 3rem;
+  width: 100%;
+  height: 20rem;
+  
+  list-style: none;
+  padding: 0;
+
+}
+
+.project-list li {
+  border-radius: 0.7rem;
+  background-color: rgba(11, 51, 85, 0.766);
+  height: 10rem;
+  margin-top: 1rem;
+  padding: 1rem;
 }
